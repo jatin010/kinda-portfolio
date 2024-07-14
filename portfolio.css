@@ -1,0 +1,59 @@
+*{
+  margin: 1rem;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans';
+}
+body {
+  color: black;
+  background-color: wheat;
+  margin: 0;
+  padding: 0;
+}
+body::-webkit-scrollbar{
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track{
+  background: black;
+}
+body::-webkit-scrollbar-thumb{
+  background: #6649b8;
+}
+.body{
+  width: 0;
+  height: 0;
+}
+.header{
+  display: left;
+}
+.topnav a {
+    display: flex;
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  img{
+    max-width: 300px;
+    border: 5rem;
+    float: auto;
+    display: inline;
+  }
+  .text-box{
+    color: black;
+    text-align: inline;
+    inline-size: auto;
+  }
+  .column {
+    height: 50px;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
